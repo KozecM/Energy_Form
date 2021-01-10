@@ -1,17 +1,5 @@
 {
   "projects": {
-    "default": "electrical-assistance-app"
-  },
-  "targets": {
-    "electrical-assistance-app": {
-      "hosting": {
-        "dev": [
-          "electrical-assistance-app"
-        ],
-        "production": [
-          "energy-assistance"
-        ]
-      }
-    }
+    "default": "energy-assistance-app"
   }
 }

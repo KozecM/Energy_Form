@@ -12,15 +12,15 @@
     <div class="buttons">
     </div>
     <div class="buttons">
-      <button class="button is-pulled-left is-link" id="login" v-on:click="logIn">Log In</button>
-      <button class="button is-light" id="forgot" @click="forgot">Forgot Password?</button>
+      <button class="button is-pulled-left" id="login" v-on:click="logIn">Log In</button>
+      <button class="button is-small" id="forgot" @click="forgot">Forgot Password?</button>
       
     </div>
     <div class="buttons">
       <img src="../../public/google_signin.png" alt="Google Sign In" class="image" v-on:click="googleClick">
     </div>
     <div class="buttons">
-      <button class="button is-medium is-link " id="signup" v-on:click="signUp">Sign Up</button>
+      <button class="button is-medium" id="signup" v-on:click="signUp">Sign Up</button>
     </div>
   </div>
 </template>
